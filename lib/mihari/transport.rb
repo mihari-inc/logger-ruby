@@ -135,7 +135,7 @@ module Mihari
       request = Net::HTTP::Post.new(uri.path)
       request["Authorization"] = "Bearer #{@token}"
       request["Content-Type"] = "application/json"
-      request["User-Agent"] = "mihari-ruby/#{Mihari::VERSION}"
+      request["User-Agent"] = "mihari-logger/#{Mihari::VERSION}"
 
       case @compression
       when :gzip

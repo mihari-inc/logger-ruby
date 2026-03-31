@@ -199,7 +199,7 @@ RSpec.describe Mihari::Transport do
       transport.flush
 
       expect(a_request(:post, "#{endpoint}/logs")
-        .with(headers: { "User-Agent" => "mihari-ruby/#{Mihari::VERSION}" }))
+        .with(headers: { "User-Agent" => "mihari-logger/#{Mihari::VERSION}" }))
         .to have_been_made
     end
   end

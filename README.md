@@ -20,7 +20,7 @@ A lightweight, thread-safe Ruby client for collecting and shipping structured lo
 Add to your Gemfile:
 
 ```ruby
-gem "mihari-ruby"
+gem "mihari-logger"
 ```
 
 Then run:
@@ -32,7 +32,7 @@ bundle install
 Or install directly:
 
 ```
-gem install mihari-ruby
+gem install mihari-logger
 ```
 
 ## Quick Start
@@ -146,8 +146,8 @@ All queue operations are protected by a Mutex. The background flush thread runs 
 ## Development
 
 ```bash
-git clone https://github.com/mihari/mihari-ruby.git
-cd mihari-ruby
+git clone https://github.com/mihari/mihari-logger.git
+cd mihari-logger
 bundle install
 bundle exec rspec
 ```

@@ -3,7 +3,7 @@
 require_relative "lib/mihari/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "mihari-ruby"
+  spec.name = "mihari-logger"
   spec.version = Mihari::VERSION
   spec.authors = ["Mihari Contributors"]
   spec.email = ["oss@mihari.dev"]
@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
                      "shipping structured logs to the Mihari log ingestion API. " \
                      "Features batching, gzip compression, automatic retries, and " \
                      "a drop-in Ruby Logger replacement."
-  spec.homepage = "https://github.com/mihari/mihari-ruby"
+  spec.homepage = "https://github.com/mihari/mihari-logger"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.7.0"
 
